@@ -44,7 +44,7 @@ tags:
 
 如图，这里我把```LAN1```改成了```WAN```口。
 
-![img1](/public/blog3-img1.webp)
+![img1](/img/blog3-img1.webp)
 
 其中需要记住每个```WAN```口的```VLAN ID```，比如说我这里原来的```WAN```口的```VLAN ID```是2，新改出来的```WAN```口的```VLAN ID```是3。**在命令行中则分别用```eth0.2```、```eth0.3```表示它们。**
 
@@ -58,17 +58,17 @@ tags:
 
 接口协议选择```DHCP 客户端```,接口选择```eth0.2```、```eth0.3```……这是原来的```WAN```口以及新改出来的```WAN```口。
 
-![img2](/public/blog3-img2.webp)
+![img2](/img/blog3-img2.webp)
 
 点```提交```，然后再到```防火墙设置```里，把刚刚创建的接口都绑定到```wan```里，```保存&应用```之后，就可以给这些接口插入宽带了。
 
-![img3](/public/blog3-img3.webp)
+![img3](/img/blog3-img3.webp)
 
 如果操作没有问题的话，应该能看到这些```WAN```口已经获取到IP地址了。
 
 我弄的是双线双拨，所以就把```LAN1```改成了```WAN```口，并创建了两个接口。
 
-![img4](/public/blog3-img4.webp)
+![img4](/img/blog3-img4.webp)
 
 请注意此时各个```WAN```口的```MAC 地址```必须不一样。如有重复则修改接口的```高级设置```，自定义一个```MAC 地址```。
 
@@ -84,15 +84,15 @@ tags:
 
 里面的配置可以仿照我的进行设置。
 
-![img5](/public/blog3-img5.webp)
-![img6](/public/blog3-img6.webp)
-![img7](/public/blog3-img7.webp)
+![img5](/img/blog3-img5.webp)
+![img6](/img/blog3-img6.webp)
+![img7](/img/blog3-img7.webp)
 
 * 成员
 
 有多少个外网接口则创建多少个成员，其中成员名不能和接口名一样，必须有区分，可以像我这样设置。
 
-![img8](/public/blog3-img8.webp)
+![img8](/img/blog3-img8.webp)
 
 其中**这里的**```跃点数```表示优先级，如果```跃点数```不一样则**只启用跃点数小的接口**，```跃点数```一样则同时启用；```比重```则决定已启用成员的流量配比。在这里我们全部设为1即可。
 
@@ -100,13 +100,13 @@ tags:
 
 创建一条策略，名称随意。使用的成员为刚刚创建的成员。
 
-![img9](/public/blog3-img9.webp)
+![img9](/img/blog3-img9.webp)
 
 * 规则
 
 创建一条规则，名称随意。分配的策略选择```banlanced```，其他保持默认。
 
-![img10](/public/blog3-img10.webp)
+![img10](/img/blog3-img10.webp)
 
 设置完记得保存&应用。
 
@@ -166,7 +166,7 @@ chmod +x autologin
 iptables -t nat -I POSTROUTING -j MASQUERADE
 ```
 
-![img11](/public/blog3-img11.webp)
+![img11](/img/blog3-img11.webp)
 
 添加完记得重启防火墙。
 
@@ -178,7 +178,7 @@ iptables -t nat -I POSTROUTING -j MASQUERADE
 
 前往 https://www.speedtest.net/ 测试一下网速。
 
-![img12](/public/blog3-img12.webp)
+![img12](/img/blog3-img12.webp)
 
 
 ## 部分参考资料

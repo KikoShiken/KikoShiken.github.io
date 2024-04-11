@@ -37,7 +37,7 @@ isFeatured: true
 
 ## __转入 Google Voice__
 
-![img1](/public/blog7-img1.webp)
+![img1](/img/blog7-img1.webp)
 
 按照提示填入账号、PIN、**转入的卡的联系地址**；付完款后会有24小时的反悔期，24小时后完成转入。
 
@@ -47,7 +47,7 @@ isFeatured: true
 
 这里我当然是选永久保留，毕竟多一个号多一个身份。
 
-![img2](/public/blog7-img2.webp)
+![img2](/img/blog7-img2.webp)
 
 
 ## __国外平台__
@@ -56,11 +56,11 @@ isFeatured: true
 * LINE：成功接到电话验证码并注册。由于当时刚转完，短信业务还未迁移，所以没能收到短信验证码。
 * WhatsAPP：正常收到验证码并注册。
 
-![img3](/public/blog7-img3.webp)
+![img3](/img/blog7-img3.webp)
 
 * PayPal 美区：正常收到验证码注册，成功绑卡，期间未遭风控。能否付款并未测试，我觉得这与手机号无关，与网络环境和银行卡有关。
 
-![img4](/public/blog7-img4.webp)
+![img4](/img/blog7-img4.webp)
 
 * ~~Tiktok：没试，狗都不用（~~
 
@@ -75,7 +75,7 @@ isFeatured: true
 
 	* **支付宝**：能正常注册和使用，并且注册后的标准界面直接就是**洋带人专属界面**。国内手机号注册的支付宝要换绑海外手机号才能出现“海外版”选项切换到这个界面。
 
-	![img5](/public/blog7-img5.webp)
+	![img5](/img/blog7-img5.webp)
 
 	* **淘宝**：能注册但无法购物，提示下单人数过多请稍后再试。用国内手机号注册的账号换绑到 GV 之后能正常使用和购物。
 	* **菜鸟**：正常注册和使用。

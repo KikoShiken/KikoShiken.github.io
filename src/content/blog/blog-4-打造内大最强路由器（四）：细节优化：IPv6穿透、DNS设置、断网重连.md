@@ -66,7 +66,7 @@ brctl addif br-lan eth0.2
 
 重启路由器，访问[IPv6测试网站](https://test-ipv6.com/index.html.zh_CN)来测试效果。
 
-![img1](/public/blog4-img1.webp)
+![img1](/img/blog4-img1.webp)
 
 它这里甚至能识别我们用了隧道（穿透）。
 
@@ -74,9 +74,9 @@ brctl addif br-lan eth0.2
 
 在```网络```->```接口```页面```添加新接口```，协议选择```DHCPv6 客户端```，接口选择没被穿透的外网接口，```防火墙设置```里将它分配到```wan```，```保存&应用```。这样路由器本身就能获取到IPv6地址了，对于需要在路由器上下种子的人来说很有帮助。
 
-![img2](/public/blog4-img2.webp)
+![img2](/img/blog4-img2.webp)
 
-![img3](/public/blog4-img3.webp)
+![img3](/img/blog4-img3.webp)
 
 
 ## DNS设置
@@ -99,7 +99,7 @@ OpenWrt上能设置DNS的地方实在是太多了！
 
 其中这里的```6```是参数，不可删除；```114.114.114.114,119.29.29.29```是DNS服务器，可以换成其他的，用英文逗号分隔。
 
-![img4](/public/blog4-img4.webp)
+![img4](/img/blog4-img4.webp)
 
 **注意，使用闭源驱动的固件在修改```LAN```口设置的时候会导致无线关闭！**
 
@@ -107,7 +107,7 @@ OpenWrt上能设置DNS的地方实在是太多了！
 
 通过WIFI重新连接路由器，查看连接详情。设置正确的话，应该是像我这样能看到DNS服务器的。
 
-![img5](/public/blog4-img5.webp)
+![img5](/img/blog4-img5.webp)
 
 
 ## 断网重连
@@ -183,7 +183,7 @@ chmod +x reconnect
 
 这里的```*/1```表示每分钟执行一次。**请保证末尾至少有一个空白行！**
 
-![img6](/public/blog4-img6.webp)
+![img6](/img/blog4-img6.webp)
 
 点击```提交```即可生效。
 

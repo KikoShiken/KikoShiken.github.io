@@ -104,7 +104,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Bangumi',
-         href: '/bangumi'
+            href: '/bangumi'
         },
         {
             text: 'RSS Feed',
@@ -115,20 +115,20 @@ const siteConfig: SiteConfig = {
         //     href: 'https://github.com/JustGoodUI/dante-astro-theme'
         // }
     ],
-     // socialLinks: [
-     //     {
-     //         text: 'Instagram',
-     //         href: 'https://www.instagram.com/aaki_ig?igsh=bjA4M3RncHp3Njhz'
-     //     },
-     //     {
-     //        text: 'X/Twitter',
-     //         href: 'https://twitter.com/mikan_chn'
-     //     },
-     //     {
-     //         text: 'GitHub',
-     //         href: 'https://github.com/mitian233'
-     //     }
-     // ],
+    // socialLinks: [
+    //     {
+    //         text: 'Instagram',
+    //         href: 'https://www.instagram.com/aaki_ig?igsh=bjA4M3RncHp3Njhz'
+    //     },
+    //     {
+    //        text: 'X/Twitter',
+    //         href: 'https://twitter.com/mikan_chn'
+    //     },
+    //     {
+    //         text: 'GitHub',
+    //         href: 'https://github.com/mitian233'
+    //     }
+    // ],
     // personalizedHero: true,
     // hero: {
     //     title: 'Hi There & Welcome to My Corner of the Web!',

@@ -21,22 +21,22 @@ tags:
 ## 二、抓包
 需要用到Chrome或者Edge。在认证页按下F12，选中```Network```。然后输入你的学号密码并登录。可以观察到此时在```Name```的下方多出了一项，我们点开它。
 
-![img1](/public/blog2-img1.webp)
+![img1](/img/blog2-img1.webp)
 
 这是一个POST请求，划到最下面，能看到几项关键的参数：```username```和```password```，也就是你的学号和加密过的密码，所以基本可以判定这个POST请求就是认证的关键了。其他的一些不明所以的参数，更换账号进行对照实验时也不会改变，所以我们可以不再研究，原封不动保留即可。
 
-![img2](/public/blog2-img2.webp)
+![img2](/img/blog2-img2.webp)
 
 至于这个密码是怎么加密的，这些参数代表什么，其实并不需要关心，我们只需要在路由器上自动模拟发送这个POST即可。我们先尝试一下。
 
 右键点击```auth_action.php```，选择```Copy，Copy cURL(bath)```，使得它能够在Linux上运行。新建一个空白文件，粘贴进去，继续分析。
 
-![img3](/public/blog2-img3.webp)
+![img3](/img/blog2-img3.webp)
 
 
 ## 三、模拟
 
-![img4](/public/blog2-img4.webp)
+![img4](/img/blog2-img4.webp)
 
 可以看到目标URL是 http://172.31.99.50:802/include/auth_action.php ，关键参数为```--data-raw```后面**高亮**的这一句，其他的```-H```都是登录时候的环境参数，是无关变量，猜测服务器不会对这些参数进行验证，可以尝试全部删了。
 
@@ -50,11 +50,11 @@ curl -d “关键参数” http://172.31.99.50:802/include/auth_action.php
 
 （在Linux终端中，粘贴快捷键为```Ctrl```+```Shift```+```v```）
 
-![img5](/public/blog2-img5.webp)
+![img5](/img/blog2-img5.webp)
 
 回车执行。
 
-![img6](/public/blog2-img6.webp)
+![img6](/img/blog2-img6.webp)
 
 返回了```login_ok```，此时路由器已经连上网了，模拟成功！
 
@@ -98,7 +98,7 @@ vi autologin       # 用vi编辑器创建并编辑文件autologin
 
 按```Esc```返回命令模式，输入```:wq```并回车，保存退出。
 
-![img7](/public/blog2-img7.webp)
+![img7](/img/blog2-img7.webp)
 
 接下来给刚刚编辑的文件加上执行权限，终端执行：
 
@@ -116,7 +116,7 @@ chmod +x autologin
 ## 五、测试
 进入```系统```->```启动项```页面，查找有没有刚刚我们创建的```autologin```，看下它是不是```已启用```状态。
 
-![img8](/public/blog2-img8.webp)
+![img8](/img/blog2-img8.webp)
 
 接着进入```系统```->```重启```页面重启路由器，验证脚本效果。
 

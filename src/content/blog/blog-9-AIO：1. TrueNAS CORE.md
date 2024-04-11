@@ -114,7 +114,7 @@ vi ./src/src.pro
 DEFINES += _GNU_SOURCE
 ```
 
-![img1](/public/blog9-img1.webp)
+![img1](/img/blog9-img1.webp)
 
 编译及安装。
 
