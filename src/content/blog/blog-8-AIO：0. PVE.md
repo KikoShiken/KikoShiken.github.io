@@ -214,12 +214,12 @@ qm set <vmid> --scsi2 /dev/disk/by-id/nvme-eui.5cd2e4bf63af0100
 
 
 ## 参考
-[Proxmox VEで無償版リポジトリを設定する ](https://blog.nishi.network/2023/02/12/proxmox7-3-repository/)
-[ProxmoxVE 合并local和local-lvm分区](https://www.xg2.top/archives/8530.html)
-[PVE开启硬件直通功能](https://www.xh86.me/?p=11309)
-[Enabling IOMMU on PVE6 (zfs) compared to PVE5.4 (ext4)?](https://forum.proxmox.com/threads/enabling-iommu-on-pve6-zfs-compared-to-pve5-4-ext4.56111/)
-[PVE 8 安装 ReakTEK RTL8125B 2.5G网卡驱动](https://evine.win/p/pve-install-realtek-8125-driver/)
-[Proxmox VE开启网卡多队列](https://foxi.buduanwang.vip/virtualization/2125.html/)
-[Display](https://pve.proxmox.com/pve-docs/chapter-qm.html#qm_display)
-[Proxmox VE与VNC](https://foxi.buduanwang.vip/virtualization/pve/1823.html/)
-[Proxmox VE pve硬盘直通](https://foxi.buduanwang.vip/virtualization/1754.html/)
+[Proxmox VEで無償版リポジトリを設定する ](https://blog.nishi.network/2023/02/12/proxmox7-3-repository/)  
+[ProxmoxVE 合并local和local-lvm分区](https://www.xg2.top/archives/8530.html)  
+[PVE开启硬件直通功能](https://www.xh86.me/?p=11309)  
+[Enabling IOMMU on PVE6 (zfs) compared to PVE5.4 (ext4)?](https://forum.proxmox.com/threads/enabling-iommu-on-pve6-zfs-compared-to-pve5-4-ext4.56111/)  
+[PVE 8 安装 ReakTEK RTL8125B 2.5G网卡驱动](https://evine.win/p/pve-install-realtek-8125-driver/)  
+[Proxmox VE开启网卡多队列](https://foxi.buduanwang.vip/virtualization/2125.html/)  
+[Display](https://pve.proxmox.com/pve-docs/chapter-qm.html#qm_display)  
+[Proxmox VE与VNC](https://foxi.buduanwang.vip/virtualization/pve/1823.html/)  
+[Proxmox VE pve硬盘直通](https://foxi.buduanwang.vip/virtualization/1754.html/)  

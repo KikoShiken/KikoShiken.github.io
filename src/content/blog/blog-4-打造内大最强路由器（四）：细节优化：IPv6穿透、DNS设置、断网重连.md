@@ -197,4 +197,4 @@ chmod +x reconnect
 
 
 ## 部分参考资料
-[信息黄埔校园网ipv6路由处理](https://makiras.org/archives/49)
+[信息黄埔校园网ipv6路由处理](https://makiras.org/archives/49)  

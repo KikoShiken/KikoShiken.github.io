@@ -124,5 +124,5 @@ chmod +x autologin
 
 
 ## 部分参考资料
-[OpenWrt的开机启动服务(init scripts)](https://www.cnblogs.com/milton/p/6345621.html)
-[小米路由器mini——Padavan折腾笔记](https://menyifan.com/2016/08/19/mini4/)
+[OpenWrt的开机启动服务(init scripts)](https://www.cnblogs.com/milton/p/6345621.html)  
+[小米路由器mini——Padavan折腾笔记](https://menyifan.com/2016/08/19/mini4/)  

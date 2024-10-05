@@ -80,6 +80,6 @@ qm importdisk 103 /var/lib/vz/template/iso/openwrt.img  local-zfs --format=qcow2
 
 
 ## 参考
-[重启后文件只读了，但是执行 mount -o remount rw / 可解决 #10317](https://github.com/coolsnowwolf/lede/issues/10317)
-[pve为vm导入已有的磁盘镜像/qcow2/vmdk](https://foxi.buduanwang.vip/virtualization/372.html/)
-[AdGuard Home 安装及使用指北](https://sspai.com/post/63088)
+[重启后文件只读了，但是执行 mount -o remount rw / 可解决 #10317](https://github.com/coolsnowwolf/lede/issues/10317)  
+[pve为vm导入已有的磁盘镜像/qcow2/vmdk](https://foxi.buduanwang.vip/virtualization/372.html/)  
+[AdGuard Home 安装及使用指北](https://sspai.com/post/63088)  

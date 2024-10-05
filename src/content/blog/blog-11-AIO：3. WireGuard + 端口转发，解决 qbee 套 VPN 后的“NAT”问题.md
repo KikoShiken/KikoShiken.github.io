@@ -205,17 +205,17 @@ systemctl enable qbee_boot
 
 
 ## 参考
-[WireGuard Point to Site Configuration WIREGUARD](https://www.procustodibus.com/blog/2020/11/wireguard-point-to-site-config/#configure-routing-on-host-b)
-[部署WireGuard VPN](https://cloud-atlas.readthedocs.io/zh-cn/latest/linux/security/vpn/wireguard/deploy_wireguard.html)
-[Linux 启用 IP 转发 (IPv4 / IPv6) | 内核转发](https://blog.acesheep.com/index.php/archives/973/)
-[利用WireGuard进行端口转发](https://blog.messyghost.net/?p=130)
-[iptables](https://wiki.archlinuxcn.org/wiki/Iptables)
-[Ubuntu下如何永久保存iptables规则](https://www.sourismu.me/archives/87/)
-[ip6tables IPV6 端口转发](https://hostloc.com/thread-1014496-1-1.html)
-[Linux 查看端口占用情况](https://www.runoob.com/w3cnote/linux-check-port-usage.html)
-[arch开机自启动脚本](https://zakariyya.github.io/2018/04/23/%E6%90%AD%E5%BB%BA-%E7%BF%BB%E5%A2%99-arch-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8%E8%84%9A%E6%9C%AC/)
-[systemd](https://wiki.archlinuxcn.org/wiki/Systemd)
-[Linux 程序开机启动并保活：Systemd 进程守护管理工具](https://www.yywr.net/547.yy)
+[WireGuard Point to Site Configuration WIREGUARD](https://www.procustodibus.com/blog/2020/11/wireguard-point-to-site-config/  #configure-routing-on-host-b)  
+[部署WireGuard VPN](https://cloud-atlas.readthedocs.io/zh-cn/latest/linux/security/vpn/wireguard/deploy_wireguard.html)  
+[Linux 启用 IP 转发 (IPv4 / IPv6) | 内核转发](https://blog.acesheep.com/index.php/archives/973/)  
+[利用WireGuard进行端口转发](https://blog.messyghost.net/?p=130)  
+[iptables](https://wiki.archlinuxcn.org/wiki/Iptables)  
+[Ubuntu下如何永久保存iptables规则](https://www.sourismu.me/archives/87/)  
+[ip6tables IPV6 端口转发](https://hostloc.com/thread-1014496-1-1.html)  
+[Linux 查看端口占用情况](https://www.runoob.com/w3cnote/linux-check-port-usage.html)  
+[arch开机自启动脚本](https://zakariyya.github.io/2018/04/23/  %E6%90%AD%E5%BB%BA-%E7%BF%BB%E5%A2%99-arch-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8%E8%84%9A%E6%9C%AC/)  
+[systemd](https://wiki.archlinuxcn.org/wiki/Systemd)  
+[Linux 程序开机启动并保活：Systemd 进程守护管理工具](https://www.yywr.net/547.yy)  
 
 
 ## 题外话
@@ -259,6 +259,6 @@ sysrc wireguard_enable="YES"
 ```service wireguard start```
 
 * 参考
-[Truenas 13.0 Wireguard in jail kernel mode wont work](https://www.truenas.com/community/threads/truenas-13-0-wireguard-in-jail-kernel-mode-wont-work.101195/)
-[How to install a Wireguard VPN client in a FreeBSD jail](https://www.cyberciti.biz/faq/how-to-install-a-wireguard-vpn-client-in-a-freebsd-jail/)
-[How-To: Setup a Wireguard VPN Server in a Jail](https://www.truenas.com/community/resources/how-to-setup-a-wireguard-vpn-server-in-a-jail.147/)
+[Truenas 13.0 Wireguard in jail kernel mode wont work](https://www.truenas.com/community/threads/  truenas-13-0-wireguard-in-jail-kernel-mode-wont-work.101195/)  
+[How to install a Wireguard VPN client in a FreeBSD jail](https://www.cyberciti.biz/faq/  how-to-install-a-wireguard-vpn-client-in-a-freebsd-jail/)  
+[How-To: Setup a Wireguard VPN Server in a Jail](https://www.truenas.com/community/resources/  how-to-setup-a-wireguard-vpn-server-in-a-jail.147/)  
