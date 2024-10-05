@@ -242,10 +242,14 @@ net.ipv6.conf.all.forwarding=1
 类型：```loader```
 
 * 安装 WireGuard
-```pkg install wireguard-tools```
+```
+pkg install wireguard-tools
+```
 
 * 修改配置文件
-```vi /usr/local/etc/wireguard/wg0.conf```
+```
+vi /usr/local/etc/wireguard/wg0.conf
+```
 注意文件里不要包含```iptables```命令，FreeBSD 是不用这个的。
 
 * 启用服务，开机运行
@@ -256,7 +260,9 @@ sysrc wireguard_enable="YES"
 或直接修改```/etc/rc.conf```。
 
 * 运行
-```service wireguard start```
+```
+service wireguard start
+```
 
 ## 参考
 [Truenas 13.0 Wireguard in jail kernel mode wont work](https://www.truenas.com/community/threads/truenas-13-0-wireguard-in-jail-kernel-mode-wont-work.101195/)  
