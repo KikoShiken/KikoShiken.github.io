@@ -145,7 +145,11 @@ netfilter-persistent  save
 # 如果想删除，修改这两个文件或者直接删除就行了。
 ```
 
-重启后可通过命令```iptables -L -t nat```和```ip6tables -L -t nat```确认相关规则已生效。
+重启后可通过以下命令确认相关规则已生效。
+```
+iptables -L -t nat
+ip6tables -L -t nat
+```
 
 
 ## 虚拟机自动挂载 SMB，qbee 开机自启

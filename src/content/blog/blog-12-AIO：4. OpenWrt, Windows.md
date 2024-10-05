@@ -21,7 +21,7 @@ include/target.mk
 target/linux/*/{Makefile,subtarget/target.mk,image/Makefile,image/subtarget.mk}
 ```
 
-我更推荐天灵的 [immortalwrt](https://github.com/immortalwrt/immortalwrt)。
+我更推荐 [immortalwrt](https://github.com/immortalwrt/immortalwrt)。
 
 * 选择测试内核
 
