@@ -227,8 +227,8 @@ net.ipv6.conf.all.forwarding=1
 而在 systemd 207 之后，文件变成了```/etc/sysctl.d/99-sysctl.conf```。
 
 参见：
-[Linux 启用 IP 转发 (IPv4 / IPv6) | 内核转发](https://blog.acesheep.com/index.php/archives/973/)
-[sysctl](https://wiki.archlinuxcn.org/wiki/Sysctl)
+[Linux 启用 IP 转发 (IPv4 / IPv6) | 内核转发](https://blog.acesheep.com/index.php/archives/973/)  
+[sysctl](https://wiki.archlinuxcn.org/wiki/Sysctl)  
 
 
 ## 在 Jail 中运行 WireGuard 客户端
@@ -259,6 +259,6 @@ sysrc wireguard_enable="YES"
 ```service wireguard start```
 
 * 参考
-[Truenas 13.0 Wireguard in jail kernel mode wont work](https://www.truenas.com/community/threads/  truenas-13-0-wireguard-in-jail-kernel-mode-wont-work.101195/)  
-[How to install a Wireguard VPN client in a FreeBSD jail](https://www.cyberciti.biz/faq/  how-to-install-a-wireguard-vpn-client-in-a-freebsd-jail/)  
-[How-To: Setup a Wireguard VPN Server in a Jail](https://www.truenas.com/community/resources/  how-to-setup-a-wireguard-vpn-server-in-a-jail.147/)  
+[Truenas 13.0 Wireguard in jail kernel mode wont work](https://www.truenas.com/community/threads/truenas-13-0-wireguard-in-jail-kernel-mode-wont-work.101195/)  
+[How to install a Wireguard VPN client in a FreeBSD jail](https://www.cyberciti.biz/faq/how-to-install-a-wireguard-vpn-client-in-a-freebsd-jail/)  
+[How-To: Setup a Wireguard VPN Server in a Jail](https://www.truenas.com/community/resources/how-to-setup-a-wireguard-vpn-server-in-a-jail.147/)  
